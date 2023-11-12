@@ -7,7 +7,7 @@
 }
 
 html {
-  font-size: 62.5%;
+  font-size: 40%;
   box-sizing: border-box;
 }
 
@@ -25,8 +25,8 @@ body {
 /* LAYOUT */
 main {
   position: relative;
-  width: 100rem;
-  height: 60rem;
+  width: 95%;
+  height: 95%;
   background-color: rgba(255, 255, 255, 0.35);
   backdrop-filter: blur(200px);
   filter: blur();
@@ -50,16 +50,16 @@ main {
   position: relative;
   font-size: 4rem;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  word-spacing: 2px;
   font-weight: 300;
   margin-bottom: 1rem;
+  text-align: center;
 }
 
 .score {
-  font-size: 8rem;
+  font-size: 20rem;
   font-weight: 300;
   color: #c7365f;
+  text-align: center;
   margin-bottom: auto;
 }
 
@@ -82,7 +82,7 @@ main {
   opacity: 0.8;
   border-radius: 9px;
   color: #fff;
-  width: 65%;
+  width: 100%;
   padding: 2rem;
   text-align: center;
   transition: all 0.75s;
@@ -91,7 +91,7 @@ main {
 .current-label {
   text-transform: uppercase;
   margin-bottom: 1rem;
-  font-size: 1.7rem;
+  font-size: 2rem;
   color: #ddd;
 }
 
@@ -108,7 +108,7 @@ main {
   background: none;
   border: none;
   font-family: inherit;
-  font-size: 1.8rem;
+  font-size: 2rem;
   text-transform: uppercase;
   cursor: pointer;
   font-weight: 400;
@@ -124,22 +124,22 @@ main {
 }
 
 .btn::first-letter {
-  font-size: 2.4rem;
+  font-size: 3rem;
   display: inline-block;
   margin-right: 0.7rem;
 }
 
 .btn--new {
-  top: 2rem;
+  top: 52rem;
 }
 .btn--change {
-  top: 9.5rem;
+  top: 59.5rem;
 }
 .btn--roll {
-  top: 39.3rem;
+  top: 90rem;
 }
 .btn--hold {
-  top: 46.1rem;
+  top: 100rem;
 }
 
 .btn:active {
@@ -154,7 +154,7 @@ main {
 .dice {
   position: absolute;
   left: 50%;
-  top: 22rem;
+  top: 72rem;
   transform: translateX(-50%);
   height: 10rem;
   box-shadow: 0 2rem 5rem rgba(0, 0, 0, 0.2);
